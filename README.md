@@ -90,7 +90,7 @@ For multi-GPU training:
 python main.py --distributed --world_size <num_gpus>
 ```
 
-I have been training on a gcp instance with 4 3080s. I also train on my local machine which a single 12GB 3060 and it works fine just extremely slow.
+I have been training on a gcp instance with 2 T4s. I also train on my local machine which a single 12GB 3060 and it works fine just extremely slow.
 
 ## Parameters
 
